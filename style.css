@@ -1,0 +1,20 @@
+
+#carre-rouge {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    cursor: pointer;
+    margin: 50px auto;
+    transition: box-shadow 0.3s; /* Animation pour lisser l'apparition de l'ombre */
+}
+
+#carre-rouge:hover {
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5); /* Ombre noire floue autour du carré */
+}
+
+#message {
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
